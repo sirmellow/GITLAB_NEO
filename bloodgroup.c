@@ -5,11 +5,13 @@ void main()
   int i;
   do
   {
-    printf("What is your have? ");
+
+    printf("========== ");
     scanf("%s", Name);
     do
     {
-      printf("What is your have group [ A, B, AB, or O ]? ");
+      printf("=======> [ A, B, AB, or O ]? ");
+
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
